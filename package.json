@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch",
+    "dev": "vite"
+  },
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
